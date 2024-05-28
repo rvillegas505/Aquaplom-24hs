@@ -1,0 +1,788 @@
+/* Estilos generales para la página */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+           
+    
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.principal {
+    margin: 20px 0;
+}
+
+.titulo-principal {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+.parrafo-espaciado {
+    margin-bottom: 20px;
+}
+
+#utensilios {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#mision {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos específicos para el header */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#logo-header {
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el título */
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.caja nav {
+    margin-top: 10px;
+}
+
+.banner-slider img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background: linear-gradient(blue, white);
+    padding: 20px auto;
+}
+
+#logo-header {
+    width: 100px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 20px; /* Margen derecho para separar la imagen del menú */
+    order: -1; /* Cambia el orden del elemento para que esté a la izquierda */
+}
+
+.caja{
+    width: 90%;
+    position: relative;
+    padding: 20px 
+}
+
+.caja h1{
+    padding-right: auto;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#logo-header {
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el título */
+}
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.caja nav {
+    margin-top: 10px;
+}
+.banner-slider img {
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.parrafo-movimiento p{
+    font-size: 25px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.seguridad-al-cien{
+    justify-content: center;
+}
+
+
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+}
+
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: blue;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.formulario-contacto {
+    max-width: 600px; /* Limita el ancho del formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+}
+
+.input-padron, textarea, select {
+    width: 100%; /* Establece el ancho al 100% por defecto */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+/* Puedes ajustar los estilos según sea necesario */
+
+.horario-atencion{
+    padding: 10px;
+}
+
+.enviar:hover{
+    transform: scale(1.2);
+    background: rgb(12, 175, 229)
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #888888;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.formulario-contacto{
+    padding-left: 20px;
+}
+
+.imagenes-fontanero-electricidad{
+    text-align: center;
+    padding: auto;
+    margin: 10px;
+    gap: 20px;
+}
+
+.imagen-fontanero-espacio {
+    margin-right: 20px; /* Añade espacio a la derecha de cada imagen */
+}
+
+/* Si quieres que la última imagen no tenga margen a la derecha */
+.imagenes-fontanero-electricidad img:last-child {
+    margin-right: 0;
+}
+
+
+.imagen-servicios {
+    margin: 0 10px; /* Ajusta el valor para cambiar el espacio entre imágenes */
+}
+
+div {
+    display: flex; /* Alinea las imágenes en una fila */
+    justify-content: center; /* Centra las imágenes dentro del contenedor */
+    align-items: center; /* Centra las imágenes verticalmente dentro del contenedor */
+}
+
+/*Aquí inicia el CSS para nuestra home*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-carrousel {
+    width: 100%;
+    overflow: hidden; /* Para ocultar partes de las imágenes si son más grandes */
+}
+.banner-slider img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier relleno */
+}
+
+.banner-imagen{
+    width: 100%; 
+}
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto; 
+}
+
+.caja h2{
+    padding-right: auto;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    
+}
+
+.caja li{
+    text-align: center;
+    margin-right: 80px;
+    padding-top: 10px;
+
+}
+
+.caja #logo-header{
+    width: 20%;
+    height: 20%;
+}
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+.titulo-principal strong{
+    font-weight: bold;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float:left;
+    margin: 0 20px 20px 0;
+}
+
+.parrafo-espaciado{
+    line-height: 1.5;
+}
+
+
+.icono-ubicacion {
+   
+    vertical-align: middle; /* Alinea verticalmente con el texto */
+}
+
+.titulo-principal{
+
+    padding-top: 50px;
+    
+}
+
+.ubicacion-parrafo p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+.container {
+    width: 300px; /* Ancho del contenedor */
+    margin: 40px 0; /* Solo margen vertical, para que esté a la izquierda */
+    padding-left: 100px;
+}
+
+.progress-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.word {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative; /* Para posicionar el texto dentro de la barra */
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #00bfff;
+    width: 0; /* Inicia desde 0 para la animación */
+    transition: width 8s ease-in-out; /* Duración de la animación (8 segundos) con efecto ease-in-out */
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+}
+
+.seccion-enfoque {
+    width: 35%;
+    margin-left: auto; /* Mueve la sección hacia la derecha */
+    padding-right: 200px;
+    padding-top: -250px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.seccion-enfoque p{
+    padding-left: 100px;
+}
+
+.seccion-enfoque h1{
+    padding-left: 100px;
+    margin: 2px 10px 10px 10px;
+    font-size: 40px;
+}
+
+.divider {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Alineación arriba */
+    bottom: 0; /* Alineación abajo */
+    left: 50%; /* Coloca la línea en el medio */
+    width: 2px; /* Ancho de la línea */
+    background-color: #000;
+    content: "";
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Para usar posicionamiento absoluto */
+}
+.container {
+    width: 45%;
+}
+.seccion-enfoque {
+    width: 45%;
+}
+/* Estilos para los elementos de progreso */
+.progress-item {
+    margin-bottom: 20px;
+}
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 5px;
+}
+.progress-fill {
+    background-color: #76c7c0;
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.progress-text {
+    color: white;
+    font-weight: bold;
+}
+
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888)
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Cambia la dirección de la animación */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.diferenciales{
+    padding: 3em 0;
+    font-size: 20px;
+    
+}
+
+
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content:"★"
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    width: 40%;
+    margin-left: 15px;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #050505;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
+}
+
+footer{
+    background: linear-gradient(blue, white);
+}
+
+#texto-de-animacion {
+    font-size: 20px;
+    color: #333;
+    overflow: hidden; /* Ocultar el exceso de texto */
+    white-space: nowrap; /* Evitar el salto de línea */
+}
+
+
+.contactanos{
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+}
+
+.contactanos p strong{
+    font-weight: bold;
+}
+
+
+
+/* aqui inicia nuestro css para la seccion de fontaneria*/
+
+.titulo-fontaneria{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 50px;
+    
+}
+
+.imagen-fontanero-arreglo{
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.fontaneria li{
+    text-align: center;
+    margin-right: 80px;
+    padding-top: 10px;
+    
+}
+
+.titulo-servicio-fontaneria{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 25px 40px 50px
+}
+
+.parrafo-fontanero{
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.foto-de-fontaneria{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    display: block; /* Para aplicar márgenes automáticamente */
+    margin: auto; /* Centra vertical y horizontalmente */
+    
+}
+
+.seccion-fontaneria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenedor en el medio horizontal */
+    padding: 20px; /* Añade relleno alrededor del contenido */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con transparencia */
+    box-sizing: border-box; /* Calcula el tamaño incluyendo el padding y el borde */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.seccion-fontaneria img {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 15px; /* Opcional: bordes redondeados para la imagen */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
+footer p{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px;
+}
+
+ /* Define la animación */
+ @keyframes aparecer-letras {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Aplica la animación al texto */
+.animacion-letras {
+    animation: aparecer-letras 2s ease-in-out forwards; /* Duración de la animación y efecto */
+    opacity: 0; /* Inicialmente oculta el texto */
+    display: inline-block; /* Evita que el texto ocupe toda la línea */
+}
+
+/* aqui inicia nuestro css para la seccion de desatasco*/
+
+.parrafo-desatasco{
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.foto-de-fontanero img{
+    padding: 10px;
+}
+
+.foto-de-fontanero p{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.foto-de-fontanero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccion-fontaneria {
+    max-width: 800px; /* Limita el ancho máximo de la sección */
+    padding: 20px; /* Añade un poco de relleno alrededor del contenido */
+}
+.seccion-fontaneria h1 {
+    font-size: 2.5em; /* Hace el título más grande */
+    color: #000080; /* Color del texto del título */
+    border: 2px solid #000080; /* Borde azul alrededor del título */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px; /* Relleno dentro del cuadro */
+    background-color: #f0f8ff; /* Fondo ligeramente azul */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+.parrafo-fontanero {
+    margin: 10px 0; /* Añade espacio entre los párrafos */
+}
+.foto-desatasco-desagüe img {
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 15px; /* Opcional: bordes redondeados para la imagen */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+    
+}
+
+footer p{
+    font-size: 20px;
+}
+
+
+/* aqui inicia nuestro css para la seccion de calefaccion y calderas*/
+
+.parrafo-desatasco{
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+
+/* Media queries para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  
+ 
+}
+
+
+  
+  /* Media queries para tabletas */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+    
+  }
+
+  /* Media queries para pantallas grandes (desktops) */
+  @media only screen and (min-width: 1025px) {
+
+  }
+

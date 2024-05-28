@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fontaneria - Aquaplom 24hs</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="carpeta1/icono .ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+
+
+
+
+</head>
+<body>
+   
+
+    <section>
+
+        <header>
+            <div class="caja">
+                <div class="header-content">
+                    <img src="carpeta1/moto-negra.jpg" alt="logo de moto azul" id="logo-header">
+                    <h2>AQUAPLOM 24HS</h2>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="productos.html">SERVICIOS</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <img class="banner-plomeria" src="carpeta1/plomeria.jpg" width="100%">
+        
+        <main>
+            <section class="principal">
+                <h2 class="titulo-principal"><strong>FONTANERIA</strong></h2>
+                <img class="foto-de-fontaneria" src="carpeta1/servicio-de-fontaneria.png" alt="Imagen de fontanero.">
+                <p class="parrafo-fontanero"> ¡Somos su empresa de referencia! Nuestro equipo de fontaneros profesionales está preparado para manejar cualquier tipo de problema de fontanería que puedas estar experimentando</p>
+
+                <p class="parrafo-fontanero">No deje que los problemas de fontanería arruinen su día. Confía en Aquaplom 24hs para solucionarlos de manera rápida y eficiente.</p>
+
+                <p class="parrafo-fontanero">Todos nuestros fontaneros están plenamente calificados y tienen licencia. Por lo tanto, independientemente del momento en que se produzca la avería, siempre podrá contar con que nos presentamos y solucionamos el problema por usted. </p>
+                
+            </section>
+
+
+            <section class="seccion-fontaneria"> 
+            
+                <h1>¡NO LO PIENSES MAS, EL MOMENTO ES AHORA!</h1>
+                <p class="parrafo-fontanero">Aquaplom-24hs es la elección correcta para sus problemas de fontanería de emergencia y desagües. Estamos preparados para atender todas sus llamadas de emergencia las 24 horas del día, los 7 días de la semana. </p>
+
+                <p class="parrafo-fontanero">Nuestro equipo de plomeros expertos es capaz de ofrecer un servicio excepcional para los problemas de fontanería y desatascos, en propiedades comerciales y residenciales. Terminamos los trabajos en lo inmediato, con la satisfacción del cliente como nuestra máxima prioridad.</p>
+
+                <img src="carpeta1/imagen-fontanero.jpg" width="100%" height="100%">
+
+            </section>
+
+
+            
+    
+
+
+            </section>
+            
+            <section class="diferenciales">
+    
+                <h3 class="titulo-principal"><strong>Nuestros servicios </strong></h3>
+            
+                <div class="contenido-diferenciales">
+                    <ul class="lista-diferenciales">
+                    <li class="items"><a href="emergencias.html">Emergencias</a></li>
+                    <li class="items"><a href="fontaneria.html">Fontanería</a></li>
+                    <li class="items"><a href="desatascos.html">Desatascos</a></li>
+                    <li class="items"><a href="calefaccion.html">Calefacción y calderas</a></li>
+                    <li class="items"><a href="electricidad.html">Servicios de electricidad</a></li>
+                    <li class="items"><a href="gas.html">Reparación de artefactos a gas</a></li>
+                    </ul><img src="carpeta1/24hs.png" class="imagen-diferenciales">
+                </div>
+                
+                
+            </section>
+
+
+            
+        </main>
+        
+        <footer>
+            <img src="carpeta1/fontanero .jpg" width="35%" height="35%" class="imagen-fontanero-espacio">
+
+            <p>SOMOS TU FONTANERO DE CONFIANZA LAS 24HS DEL DÍA LOS 365 DÍAS DEL AÑO </p>
+        </footer>
+
+        <script> 
+        // JavaScript para activar la animación del texto
+        const frase = document.getElementById('frase');
+        const texto = frase.textContent.trim();
+        const letras = texto.split('');
+        frase.textContent = ''; // Limpia el texto original
+
+        letras.forEach((letra, indice) => {
+            const span = document.createElement('span');
+            span.textContent = letra;
+            span.style.animationDelay = `${indice * 0.1}s`; // Retraso de animación para cada letra
+            frase.appendChild(span);
+        });
+
+    </script>
+        
+    </body>
+</html>
