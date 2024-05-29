@@ -769,8 +769,43 @@ footer p{
 
 /* Media queries para dispositivos móviles */
 @media only screen and (max-width: 600px) {
-  
- 
+    .principal {
+    width: 340px;
+    }
+
+    .container-wrapper {
+    flex-direction: column;
+    }
+
+    .divider {
+    display: none;
+    }
+    .seccion-enfoque {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    .seccion-enfoque h1 {
+        padding-left: 0px;
+      }
+
+    .seccion-enfoque p {
+        padding-left: 0px;
+        
+    }
+
+    .mapa-contenido {
+        width: 80vw;
+      }
+
+    footer {
+    width: 100vw;
+    }
+
+    .contactanos {
+        white-space: collapse;
+    }
 }
 
 
